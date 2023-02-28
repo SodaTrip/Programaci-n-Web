@@ -1,0 +1,147 @@
+/*
+Colores a usar para poder hacer uso de colores degradados usar las siguientes lineas:
+
+Linea para hacer un color transparente
+background-color: rgba(0, 0, 0, 0.29);
+
+Color de fondo principal
+background-image: linear-gradient(lightblue, darkblue);
+
+color de fondo de main
+background: linear-gradient(360deg, #ddf6b8 30%,#1d7d8e 70%);
+
+*/
+main {
+
+    height: 100vheight;
+    width: 100%;
+    background-image: linear-gradient(360deg, #ddf6b8 30%, #1d7d8e);
+    border-radius: 20px;
+    box-shadow: 20px 30px 25px rgba(0, 0, 0, 0.29);
+    align-items: center;
+    height: 100vheight;
+    height: 420px;
+    width: 900px;
+    display: flex;
+    padding: 1.5rem;
+    margin-top: 130px;
+    margin-left: 300px;
+  }
+
+body{
+    background-image: linear-gradient(to right, lightblue, darkblue);
+    align-items: center;
+    justify-content: center;
+    height: 100vheight;
+
+}
+img{
+    width: 250px;
+    height: 200px;
+}
+
+.form{
+    background-color: rgba(0, 0, 0, 0.29);
+    border-top-left-radius: 170px;
+    border-bottom-left-radius: 170px;
+    width: 674px;
+    height: 468px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.main-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.colum1{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    margin-top: 100px;
+}
+.colum2{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.columf1{
+    display: inline-block;
+    margin-right: 20px;
+    margin-top: 5px;
+ 
+}
+.columf2{
+   display: inline-block;
+   margin-left: 20px;
+
+}*/
+
+h1{
+    margin-left: 65px;
+}
+.title1{
+    margin-left: 65px;
+    justify-content: center;
+   
+   
+}
+
+.title2{
+    margin-left: 250px;
+    justify-content: center;
+   
+   
+}
+.campform{
+    justify-content: center;
+    margin-left: 150px;
+    margin-top: 0px;
+    
+    
+}
+
+
+.button1 {
+    
+    background-color: #4CAF50; 
+    border: none;
+    color: white; 
+    padding: 12px 24px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 16px; 
+    margin: 30px 65px; 
+    cursor: pointer; 
+    border-radius: 4px; 
+}
+
+.button2{
+    background-color: #0f3292; 
+    border: none; 
+    color: white; 
+    padding: 12px 24px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 16px; 
+    margin: 20px 150px; 
+    cursor: pointer; 
+    border-radius: 4px; 
+    
+}
+
+input, textarea, label{
+    display: block;
+    margin-top: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    
+}
+
+.columf1,.columf2{
+   
+}
